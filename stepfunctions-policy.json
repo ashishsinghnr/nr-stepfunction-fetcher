@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "states:ListStateMachines",
+                "states:DescribeStateMachine",
+                "states:ListExecutions",
+                "states:DescribeExecution",
+                "states:StartExecution",
+                "states:StopExecution",
+                "states:SendTaskFailure",
+                "states:SendTaskSuccess",
+                "states:SendTaskHeartbeat",
+                "states:ListActivities",
+                "states:DescribeActivity",
+                "states:CreateActivity",
+                "states:DeleteActivity",
+                "states:ListTagsForResource",
+                "states:TagResource",
+                "states:UntagResource",
+                "states:UpdateMapRunOnFailure",
+                "states:UpdateMapRunOnSuccess"                
+            ],
+            "Resource": "*"
+        }
+    ]
+}

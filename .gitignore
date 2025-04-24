@@ -1,0 +1,4 @@
+# ignore ALL files in ANY directory named temp
+state_definitions/
+# ignore ALL .log files
+*.DS_Store
