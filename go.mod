@@ -1,7 +1,7 @@
 module stepfunction-fetcher
 
 // This module is a Go application that fetches and displays AWS Step Function execution history.
-go 1.24.2
+go 1.23
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.3
@@ -23,6 +23,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.25.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.19 // indirect
-	github.com/aws/smithy-go v1.22.2 // indirect
-	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/aws/smithy-go v1.22.3 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
 )
