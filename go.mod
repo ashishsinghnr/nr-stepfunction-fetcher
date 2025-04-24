@@ -1,5 +1,6 @@
 module stepfunction-fetcher
 
+// This module is a Go application that fetches and displays AWS Step Function execution history.
 go 1.24.2
 
 require (
